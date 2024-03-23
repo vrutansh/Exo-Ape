@@ -16,28 +16,24 @@ const Work = () => {
             {/* <div className='featured'></div> */}
             <h3 className='capitalize font-semibold'>+ featured projects </h3>
 
-            <h1 className='text-6xl my-5'>Work</h1>
+            <h1 className='text-6xl md:text-[13rem] md:leading-none md:tracking-tight my-5'>Work</h1>
             <p className=' leading-2 text-md'>Highlights of the cases that we passionately built with forward thinking clients and friends over the years.
             </p>
 
-            <div className='elems mt-10'>
+            <div className='elems md:flex md:flex-wrap md:gap-5 mt-10'>
                 {elems.map((item,index)=>{
-                  return  <div className='elem w-full mt-8 '>
-                    <div className='video w-full h-[104vw] relative overflow-hidden'>
+                  return  <div className='elem w-full md:w-[48%] mt-8 '>
+                    <div className='video w-full h-[104vw] md:h-[50vw] relative overflow-hidden'>
                         <img className='w-full h-full object-cover hidden md:block' src={item.img} alt="" />
 
                         <video autoPlay muted loop className='w-full h-full absolute top-1/2 left-1/2 scale-[1.3] -translate-x-1/2 -translate-y-1/2 block md:hidden'
                          src={item.video}></video>
                     </div>
-                    <div className='mt-4'>
-                        <h3 className='font-semibold'>Studio-Hero</h3>
-                        <h3 className='capitalize opacity-80'>Architectural marketing agency</h3>
-                    </div>
+              
                 </div>
               })}
                 
             </div>
-
         </div>
     </div>
   )
