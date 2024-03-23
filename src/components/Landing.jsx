@@ -18,9 +18,9 @@ const Landing = () => {
             </div>
 
             <div className='headings mt-5 md:mt-10'>
-                <h1 className='text-6xl tracking-tighter leading-none md:text-[12rem]'>Digitals</h1>
-                <h1 className='text-6xl tracking-tighter leading-none md:text-[12rem]'>Design</h1>
-                <h1 className='text-6xl tracking-tighter leading-none md:text-[12rem]'>Experience</h1>
+                <h1 className='text-[10vh] tracking-tighter leading-none md:text-[12rem]'>Digitals</h1>
+                <h1 className='text-[10vh] tracking-tighter leading-none md:text-[12rem]'>Design</h1>
+                <h1 className='text-[10vh] tracking-tighter leading-none md:text-[12rem]'>Experience</h1>
             </div>
 
             <div className='para2 md:w-1/3 mt-10 md:mt-20 '>
