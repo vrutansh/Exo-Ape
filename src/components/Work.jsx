@@ -23,12 +23,16 @@ const Work = () => {
             <div className='elems md:flex md:flex-wrap md:gap-5 mt-10'>
                 {elems.map((item,index)=>{
                   return  <div className='elem w-full md:w-[48%] mt-8 '>
-                    <div className='video w-full h-[104vw] md:h-[50vw] relative overflow-hidden'>
-                        <img className='w-full h-full object-cover hidden md:block' src={item.img} alt="" />
+                            <div className='video w-full h-[104vw] md:h-[50vw] relative overflow-hidden'>
+                            <img className='w-full h-full object-cover hidden md:block' src={item.img} alt="" />
 
-                        <video autoPlay muted loop className='w-full h-full absolute top-1/2 left-1/2 scale-[1.3] -translate-x-1/2 -translate-y-1/2 block md:hidden'
-                         src={item.video}></video>
-                    </div>
+                             <video autoPlay muted loop className='w-full h-full absolute top-1/2 left-1/2 scale-[1.3] -translate-x-1/2 -translate-y-1/2 block md:hidden'
+                             src={item.video}></video>
+                           </div>
+                            <div className='mt-4'>
+                              <h3 className='font-semibold'>{item.heading}</h3>
+                              <h3 className='capitalize opacity-80'>{item.Subheading}</h3>
+                            </div>
               
                 </div>
               })}
@@ -40,3 +44,5 @@ const Work = () => {
 }
 
 export default Work
+
+
