@@ -10,9 +10,9 @@ const Spread = () => {
             </div>
 
            <div className='heading mt-10 text-center'>
-               <h1 className='capitalize text-6xl tracking-tighter '>Spread</h1>
-               <h1 className='capitalize text-6xl tracking-tighter '>the news</h1>
-               <p className='w-2/3 mx-auto mt-5 text-md leading-2'>Find out more about our Work on these leading design and technology platforms.</p>
+               <h1 className='capitalize text-6xl md:text-9xl tracking-tighter '>Spread</h1>
+               <h1 className='capitalize text-6xl md:text-9xl tracking-tighter '>the news</h1>
+               <p className='w-2/3 mx-auto mt-5 md:mt-10 md:text-xl md:w-1/3 text-md leading-2'>Find out more about our Work on these leading design and technology platforms.</p>
 
                <a className='border-b-[1px] border-zinc-900 pb-1c mt-5 inline-block' href="#">Browse all news</a>
            </div> 

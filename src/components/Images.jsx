@@ -13,7 +13,7 @@ const Images = () => {
          <div className='absolute md:w-[17rem] w-[9rem] aspect-video -left-[70%] -bottom-10 bg-red-400'>
            <img className='h-full w-full object-cover' src="https://a.storyblok.com/f/133769/758x508/8a1ff60d00/home-news-4.jpg/m/1200x804/filters:quality(90)" alt="" />
          </div>
-         <div className='absolute w-[8rem] aspect-[1.5/1] md:-right-[20%] md:w-[12rem] -right-[70%] -bottom-[37%] md:-bottom-[20%] overflow-hidden '>
+         <div className='absolute w-[7rem] aspect-[1.5/1] md:-right-[50%] md:w-[14rem] -right-[70%] -bottom-[33%] md:-bottom-[20%] '>
            <video autoPlay muted loop src="https://a.storyblok.com/f/133769/x/88b4bf7989/news-rino-pelle.mp4"></video>
 
 
