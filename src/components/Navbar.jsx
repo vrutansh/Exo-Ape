@@ -25,7 +25,11 @@ const Navbar = () => {
           <i class="ri-menu-fill text-2xl "></i>
        </motion.span>
 
-       <motion.div className='links hidden md:flex gap-10'>
+       <motion.div
+          initial={{ opacity:0 }} 
+          whileInView={{opacity:1}} 
+          transition={{ ease: Power4.easeInOut, duration:1 }} 
+          className='links hidden md:flex gap-10'>
           {["Home", "About", "Pricing", "Contact"].map((link,i)=>
             <a key={i} className='text-sm font-light font-["Gilroy"]' href="">{link}</a>  
           )}

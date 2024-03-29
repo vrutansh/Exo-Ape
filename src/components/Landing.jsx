@@ -1,6 +1,9 @@
+import { motion, stagger } from 'framer-motion'
 import React from 'react'
+import {Power4, Expo} from 'gsap/all'
 
 const Landing = () => {
+  
   return (
     <div className=' relative w-full h-[150vh] md:h-[250vh]'>
         <div className='picture w-full h-full'>
@@ -11,10 +14,16 @@ const Landing = () => {
 
          <div className='h-full text max-w-screen-xl mx-auto px-5 md:px-10 text-white'>
             <div className='para mt-72 md:mt-[35rem] '>
-                 <p className='text-md font-regular  md:text-3xl'>Global digital design studio partnering</p>
-                 <p className='text-md font-regular md:text-3xl'>with brands and business that create</p>
-                 <p className='text-md font-regular md:text-3xl'>exceptional experiences where people</p>
-                 <p className='text-md font-regular md:text-3xl'>Live, Work, and Unwind</p>
+               {["Global digital design studio partnering", "with brands and business that create", "exceptional experiences where people", "Live, Work, and Unwind"].map((item,index)=>{
+                 return <p key={index} className='text-md font-regular md:text-3xl overflow-hidden'>
+                          <motion.span 
+                              initial={{rotate:90, y:"100%", opacity:0}} 
+                              animate={{rotate: 0 , y: 0, opacity: 1, stagger: .1}}  
+                              transition={{ease: [0.22, 1, 0.36, 1], duration:.8, delay:index*.2}} 
+                              className='inline-block origin-left'>{item}
+                          </motion.span>
+               </p>
+               })}
             </div>
 
             <div className='headings mt-5 md:mt-10'>
