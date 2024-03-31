@@ -9,7 +9,7 @@ const Work = () => {
         
         img:"https://a.storyblok.com/f/133769/1606x2000/09a30057bd/aebele-interiors-hero.jpg/m/1300x1619/filters:format(webp):quality(70)"},
 
-        {heading: "Abelle Interiors", Subheading: "Luxurious Desing Experience", video: "https://download-video.akamaized.net/v3-1/playback/d6b185a8-34d6-4821-b317-54ea0673a143/68caaacc?__token__=st=1711429132~exp=1711443532~acl=%2Fv3-1%2Fplayback%2Fd6b185a8-34d6-4821-b317-54ea0673a143%2F68caaacc%2A~hmac=8373da310f4256ae910d913bdd438651ab581aea317e2cd77d98a6167302a1b1&r=dXMtd2VzdDE%3D", img:"https://a.storyblok.com/f/133769/2500x3113/78edf86efd/rino-pelle-hero.jpg/m/1300x1619/filters:format(webp):quality(70)"},
+        {heading: "Abelle Interiors", Subheading: "Luxurious Desing Experience", video: "https://player.vimeo.com/progressive_redirect/playback/914796979/rendition/540p/file.mp4?loc=external&log_user=0&signature=57ac30ff6fc3b29802f7414617e808395306f0b0fa5c9c6e3ef483a532f49c15", img:"https://a.storyblok.com/f/133769/2500x3113/78edf86efd/rino-pelle-hero.jpg/m/1300x1619/filters:format(webp):quality(70)"},
 
         {heading: "Studio D", Subheading: "Urban and Landscape Design", video: "https://a.storyblok.com/f/133769/x/833a506717/pixel-flakes-hover.mp4", img:"https://a.storyblok.com/f/133769/2880x3588/5c50befb8e/pixel-flakes-hero.jpg/m/1300x1620/filters:format(webp):quality(70)"},
     ])

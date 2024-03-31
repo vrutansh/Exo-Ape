@@ -23,12 +23,12 @@ const Playreel = () => {
     }, 'a')
     .to(play.current,{
       x:"100%",
-      scale:1.2,
+      // scale:1.2,
       ease: Power4,
     }, 'a')
     .to(reel.current,{
         x:"-100%",
-        scale:1.2,
+        // scale:1.2,
         ease: Power4,
     },'a')
   })
